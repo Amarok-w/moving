@@ -513,7 +513,51 @@ body {
 /* review */
 
 
+.review {
+  background: var(--gold);
+  padding: 100px 0;
+}
+.review-case {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.review-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.review-items {
+  display: flex;
+  margin: 60px 0 70px 0;
+}
+.review-item {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+}
+.review-name {
+  text-align: left;
+}
+
+.review-date {
+  display: flex;
+  margin: 10px 0 20px 0;
+}
+.review-stars {
+  margin: 0 0 0 10px;
+}
+.review-text {
+}
+.review-read-full {
+  margin: 18px 0 0 0;
+  text-decoration: underline;
+}
+.review__all {
+  border: 2px solid var(--black);
+  padding: 13px 64px;
+  font-weight: 700;
+}
 
 
 /* review */
