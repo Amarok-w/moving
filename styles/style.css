@@ -559,6 +559,18 @@ body {
   font-weight: 700;
 }
 
+@media screen and (max-width: 768px) {
+  .review-items {
+    width: 90%;
+  }
+  .review-item_1 {
+    display: none;
+  }
+  .review-item_3 {
+    display: none;
+  }
+} 
+
 
 /* review */
 
