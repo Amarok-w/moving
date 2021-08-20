@@ -8,5 +8,3 @@ navBox.addEventListener('change', el => {
     document.body.style.overflow = 'visible';
   }
 })
-
-
