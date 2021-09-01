@@ -15,7 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Montserrat";
+  font-family: "Montserrat", 'Segoe UI', 'Arial', sans-serif;
   color: var(--black);
 }
 .wrapper {
@@ -671,7 +671,69 @@ body {
 /* order */
 
 
+/* map */
 
+.map {
+}
+.map-case {
+}
+.map-flex {
+  display: flex;
+  flex-direction: column;
+  height: 666px;
+}
+.map-img {
+  background: url(../img/map.png) no-repeat top center ;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.map-block {
+  position: relative;
+  width: 368px;
+  height: 326px;
+  background: #fff;
+  padding: 40px 35px;
+  margin: 162px 0 0 450px;
+  display: flex;
+  flex-direction: column;
+}
+.map-info {
+  margin: 40px 0 45px 0;
+}
+.map-info__item {
+  background: url(../img/check-icon.svg) no-repeat left center;
+  padding: 0 0 0 20px;
+  margin: 10px 0;
+}
+.map-socials {
+  margin: 0 0 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .map-img {
+    position: static;
+    overflow-x: hidden;
+  }
+  .map-block {
+    position: static;
+    width: 100%;
+    margin: 0;
+  }
+  .map-socials {
+    display: none;
+  }
+  .map-block .logo {
+    display: none;
+  }
+  .map-info__item {
+    background: none;
+  }
+}
+
+
+/* map */
 
 
 
@@ -771,6 +833,10 @@ body {
   }
   .footer-order {
     display: block;
+  }
+
+  .map-socials {
+    display: none;
   }
 }
 
