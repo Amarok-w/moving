@@ -681,6 +681,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 666px;
+  margin: 50px 0 80px 0;
 }
 .map-img {
   background: url(../img/map.png) no-repeat top center ;
